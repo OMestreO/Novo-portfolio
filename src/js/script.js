@@ -1,4 +1,4 @@
-ar cursor = document.getElementById('cursor');
+var cursor = document.getElementById('cursor');
 
 document.addEventListener("mousemove", (e) =>{
     var x = e.clientX;
